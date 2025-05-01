@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.upper-image {
+    display: inherit;
+    height: 40vh;
+    width: 100%;
+}
+
+
+.upper-image-img {
+    display: inherit;
+    height: 100%;
+    width: 100%;
+}
