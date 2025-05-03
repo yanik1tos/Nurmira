@@ -1,10 +1,11 @@
 .black-button {
   background-color: #00ff0800;
-  width: 40%;
-  height: 5.5%;
+  width: 600px;
+  aspect-ratio: 10 / 1;
 
   color: black;
-  font-size: 16px;
+  font-size: 1.7rem;
+  font-weight: 600;
 
   border: 5px black solid;
   border-radius: 40px;
@@ -17,4 +18,27 @@
 
 .black-button:hover {
   background-color: #00000078;
+}
+
+
+.blue-button {
+    background-color: #0091ff;
+    width: 100%;
+    aspect-ratio: 10 / 1;
+
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    border: none;
+    border-radius: 40px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+
+.blue-button:hover {
+    background-color: #0f78c8d9;
 }
