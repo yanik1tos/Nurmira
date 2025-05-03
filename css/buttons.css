@@ -1,6 +1,6 @@
 .black-button {
   background-color: #00ff0800;
-  width: 600px;
+  width: 100%;
   aspect-ratio: 10 / 1;
 
   color: black;
@@ -17,7 +17,7 @@
 
 
 .black-button:hover {
-  background-color: #00000078;
+  background-color: rgba(195, 188, 188, 0.733);
 }
 
 
@@ -40,5 +40,5 @@
 
 
 .blue-button:hover {
-    background-color: #0f78c8d9;
+    background-color: #137ed09f;
 }
