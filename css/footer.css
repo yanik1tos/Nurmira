@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: mediumseagreen;
+    height: 55vh;
+    margin-top: 30vh;
+
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+.footer-info {
+    width: 30%;
+    margin-right: 10vw;
+}
+
+.footer-info-text {
+    margin-top: 4px;
+    font-size: 1rem;
+    padding-right: 8vw;
+}
+
+
+
+.footer-contact-us-content {
+    margin-top: 4px;
+}

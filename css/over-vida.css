@@ -1,3 +1,8 @@
+.main {
+    font-family: 'Raleway', sans-serif;
+}
+
+
 .team-photo {
     display: flex;
     justify-content: center;
@@ -18,35 +23,39 @@
     color: white;
     text-align: center;
 
-    /* padding: 8px 12px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 6px; */
-
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
 }
+
+
+
+.page-content {
+    padding: 0 calc(30vw - 19.2px * 18 + 4vw);
+}
+
 
 
 .part {
     display: flex;
     flex-direction: row;
+
+    /* outline: green dashed 7px; */
 }
 
 
-.part-with-image {
+.side {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    height: 100%;
-    width: 60%;
+    width: 50%;
+
 
     /* outline: red dashed 5px; */
 }
 
 
 .portrait {
-    max-width: 72%;
-    max-height: 55.8%;
+    width: 300px;
     height: auto;
     border-radius: 20px;
 
@@ -54,15 +63,10 @@
 }
 
 
+.person-info {
+    font-size: 20px;
+    line-height: 1.9;
+    font-weight: 500;
 
-.first-part-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    height: 100%;
-    width: 50%;
-
-    /* outline: blue dashed 5px; */
+    /* outline: blue dashed 3px; */
 }

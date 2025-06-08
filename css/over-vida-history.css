@@ -1,0 +1,27 @@
+.history {
+    margin-top: 10vw;
+    text-align: center;
+    
+}
+
+.history-header {
+    margin-bottom: 5vw;
+    font-size: 1rem;
+}
+
+
+.history-header, .history-year {
+    font-weight: bold;
+}
+
+
+.history-label {
+    font-weight: normal;
+}
+
+
+.history-part {
+    margin-bottom: 4vw;
+    font-size: 12px;
+}
+
