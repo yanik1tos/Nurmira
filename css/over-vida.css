@@ -1,0 +1,68 @@
+.team-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.team-photo-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center 0;
+}
+
+
+.team-photo-label {
+    position: absolute;
+    color: white;
+    text-align: center;
+
+    /* padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 6px; */
+
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+
+
+.part {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.part-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 60%;
+
+    /* outline: red dashed 5px; */
+}
+
+
+.portrait {
+    max-width: 72%;
+    max-height: 55.8%;
+    height: auto;
+    border-radius: 20px;
+
+    /* outline: red dashed 3px; */
+}
+
+
+
+.first-part-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 50%;
+
+    /* outline: blue dashed 5px; */
+}

@@ -25,8 +25,14 @@ main {
 
 
 .part {
-    padding: 4vw calc(30vw - 19.2px * 18);
-    height: 80vh;
-
-    /* outline: green dashed 5px; */
+    margin-top   : 6vw;
+    margin-bottom: 4vw;
 }
+
+
+
+.page-content {
+    display: block;
+    padding: 0 calc(30vw - 19.2px * 18);
+}
+

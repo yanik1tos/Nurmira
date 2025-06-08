@@ -1,7 +1,6 @@
 header {
     width: 100%;
     height: 10vh;
-    display: flex;
     background-color: white;
 
     /* padding: 10px;
@@ -10,7 +9,7 @@ header {
 
 
 .menu {
-    display: inherit;
+    display: flex;
     width: 100%;
 
     align-items: center;
@@ -18,14 +17,12 @@ header {
 
 
 .menu-logo {
-    display: inherit;
     width: 45%;
     height: 100%;
 }
 
 
 .menu-logo-image {
-    display: inherit;
     margin-left: 20%;
     padding-left: 20%;
     margin-right: 20%;
@@ -36,13 +33,7 @@ header {
 }
 
 
-.menu-bar {
-    display: inherit;
-}
-
-
 .menu-bar-item {
-    display: inherit;
     margin-left: 5px;
     margin-right: 5px;
 
