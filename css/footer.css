@@ -1,11 +1,10 @@
 footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
 
     background-color: mediumseagreen;
-    height: 55vh;
+    height: 300px;
     margin-top: 30vh;
 
     color: white;
@@ -15,9 +14,14 @@ footer {
 }
 
 
+
+.footer-info, .footer-contact-us {
+    margin-top: 40px;
+}
+
+
 .footer-info {
-    width: 30%;
-    margin-right: 10vw;
+    max-width: 30%;
 }
 
 .footer-info-text {
@@ -27,7 +31,28 @@ footer {
 }
 
 
+.footer-contact-us-header {
+    margin-left: 35px;
+}
 
 .footer-contact-us-content {
-    margin-top: 4px;
+    margin-top: 2px;
+    width: 100%;
+}
+
+.footer-contact-us-contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.footer-contact-us-icon {
+    margin-top: 3px;
+    width: 32px;
+    height: 32px;
+}
+
+.footer-contact-us-label {
+    line-height: 35px;
 }
