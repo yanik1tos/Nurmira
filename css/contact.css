@@ -1,0 +1,106 @@
+.page-content {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 60px;
+}
+
+.actually-contact-us {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    display: block;
+
+    width: 60%;
+
+    /* outline: blue dashed 5px; */
+}
+
+.actually-contact-us-header {
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+
+
+.actually-contact-us-send {
+    margin-top: 50px;
+}
+
+.actually-contact-us-part {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.actually-contact-us-part-header {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.actually-contact-us-part-input {
+    width: 90%;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* horizontal, vertical, blur, color */
+}
+
+input:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6); /* blue glow on focus */
+    outline: none;
+}
+
+
+.submit-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 40px;
+}
+
+.submit-button {
+    width: 200px;
+    height: 45px;
+}
+
+
+
+.our-contacts {
+    width: 40%;
+    padding-left: 50px;
+    margin-left: 50px;
+
+    /* outline: red dashed 5px; */
+}
+
+
+.our-contacts-header {
+    font-size: 2.5rem;
+}
+
+
+.actually-our-contacts {
+    margin-top: 50px;
+}
+
+
+.actually-our-contacts-header {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+
+.actually-our-contacts-contact {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}

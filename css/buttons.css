@@ -1,6 +1,5 @@
 .black-button {
   background-color: #00ff0800;
-  width: 100%;
   aspect-ratio: 8 / 1;
 
   color: black;
@@ -23,7 +22,6 @@
 
 .blue-button {
     background-color: #0091ff;
-    width: 100%;
     aspect-ratio: 8 / 1;
 
     color: white;

@@ -83,4 +83,5 @@
 .part-button {
     display: block;
     margin: 1.25rem auto;
+    width: 100%;
 }
